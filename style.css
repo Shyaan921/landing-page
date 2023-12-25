@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper,
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper .left {
+    display: flex;
+    margin-right: auto;
+}
+
+.lower .left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.normal {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.bold {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.bolder {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
