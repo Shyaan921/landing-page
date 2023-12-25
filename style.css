@@ -1,12 +1,24 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0;
+}
+
+.header, 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    align-content: center;  
     justify-content: center;
 }
 
+.footer {
+    color: white;
+    padding: 30px;
+}
 .header {
-    display: flex;
+    gap: 100px;
+    padding: 20px 150px 150px 150px;
     flex-direction: column;
 }
 
@@ -14,17 +26,18 @@ body {
 .lower {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .upper .left {
     display: flex;
-    margin-right: auto;
 }
 
 .lower .left {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
+    gap: 10px;
 }
 
 .normal {
@@ -42,4 +55,21 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bolder;
+} 
+
+button {
+    background-color: #3882f6;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: 5px;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    border: 0;
+    gap: 20px;
+}
+
