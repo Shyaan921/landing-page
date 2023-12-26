@@ -131,3 +131,27 @@ ul {
     justify-content: flex-end;
     
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.smaller-action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 200px 25px 200px;
+    gap: 20px;
+}
+
+.action button {
+    border: 1px solid white;
+    color: white;
+}
+
+.action .text {
+    display: flex;
+    flex-direction: column;
+}
