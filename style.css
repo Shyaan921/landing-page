@@ -73,3 +73,35 @@ ul {
     gap: 20px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px 100px 50px;
+}
+
+.nodes {
+    display: flex;
+    gap: 60px;
+}
+
+.node { 
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+
+}
+
+.node img {
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 18px;
+}
+
+.node .normal {
+    color: #1f2937;
+}
